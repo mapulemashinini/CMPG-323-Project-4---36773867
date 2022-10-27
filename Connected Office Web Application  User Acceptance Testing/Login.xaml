@@ -1,0 +1,176 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="841.6,1816.8" sap2010:WorkflowViewState.IdRef="Login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="47">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="558.4,1752" sap2010:WorkflowViewState.IdRef="Sequence_9">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ss:SecureString" Name="ssPass" />
+      <Variable x:TypeArguments="x:String" Name="ssUser" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Log in - Connected Office: Device Management" sap:VirtualizedContainerService.HintSize="496,1628.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="0f718dcd-7cbe-4b14-a342-ac860f45c7f1" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="529.6,1667.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="variable2" />
+              <Variable x:TypeArguments="x:String" Name="variable3" />
+              <Variable x:TypeArguments="x:String" Name="variable4" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Log in - Connected Office: Device Management" sap:VirtualizedContainerService.HintSize="467.2,1544" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="5fe41057-e96c-4115-8595-529f882c3622" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence sap:VirtualizedContainerService.HintSize="400,1277.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:GetRobotCredential AssetName="LoginCredentails" CacheStrategy="None" DisplayName="Get Credential" FolderPath="{x:Null}" sap:VirtualizedContainerService.HintSize="337.6,409.6" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3" Password="[ssPass]" Username="[ssUser]">
+                      <ui:GetRobotCredential.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:GetRobotCredential.TimeoutMS>
+                    </ui:GetRobotCredential>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,228" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="0f718dcd-7cbe-4b14-a342-ac860f45c7f1" Text="[ssUser]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://connectedoffice-devicemanagement.azurewebsites.net/Identity/Account/Login" DesignTimeRectangle="332, 474, 500, 48" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT Input_Email'" FullSelectorArgument="&lt;webctrl id='Input_Email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Input_Email' tag='INPUT' type='email' class='form-control' aaname='Email' /&gt;" Guid="35348d5f-e95a-4d36-937e-93cce27f7348" ImageBase64="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" InformativeScreenshot="9af85036c531930be2e0d26ce9efb2c0.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - Connected Office: Device Management' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="332, 434, 47, 30" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email' check:innerText='Email' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADMAAAAiCAYAAADyK+EUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAImSURBVFhH7ZaxayJBFIfvX0lxkFRabZd0kkI5SOTgIgQSUhhSGFJIUoSkODZgsLDYIpWFYLGwcISBK2xkIXgWkW1CmmCjAUFBMHBgIfzuzex4UVmL4JKMYT6YYt7OjPM5783uF3witIyqaBlV0TKqomVURcuoivoy/QpOjSgSloehDOH+Gitf07A7si+ZlhGD1oLbgYOuHPaudBgOF5E5LNZRu5tpXvt1sY/mLTLmveyripaZQ9dJ07hrNEY91KwMYgavKwPJS4bWiAZMxaMw0jeoBRTc4JHBPNqGEfHrMrKZgfWnJ5+O8WDSs31nIh6+zDnM3A5SFhM1dWvtIUJzN3Iuqrk4YmdlVHmtsQKSfLObN3jgomM6DvZJNHFSxK2oS4b8jyitG0fem6zOBWWC2qSgL7OGZKkpI5whGrmYiK+mHf+EJAOWoXgM1qMMcDoVlNyZU/jr4pT/3lVdBjgLygTdZk99OYbwZfZgP8uAZOj+FPMv3Jl779lBiuLHv19kYB492AckM/UaeJc0o5qR/f/Mmy9SamZDnH4TNaeI/FUWqa1tJNZ5mi2hTOtXRtQYL/qLQgElxjOggvzussmMaIN0KWxQbUwnZBv20sl0mein7LbfH9MsI0nxUGUCP2fuPLTk37h4mrVR+k6bjuzAdFyxfrV8jsS3LI7DPpng9jo5lAugW4d1FBd1I1642TIaA0qz0G6zJUfLqIqWURUtoyqfSAb4BzvSUzDC2PpdAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,228" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="0f718dcd-7cbe-4b14-a342-ac860f45c7f1" SecureText="[ssPass]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://connectedoffice-devicemanagement.azurewebsites.net/Identity/Account/Login" DesignTimeRectangle="332, 582, 500, 48" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FriendlyName="'INPUT Input_Password'" FullSelectorArgument="&lt;webctrl id='Input_Password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Input_Password' tag='INPUT' type='password' class='form-control' aaname='Password' /&gt;" Guid="570685cb-b9af-4916-af85-2ee4710eaa67" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAfgAAAA0CAYAAABmdSoEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJVSURBVHhe7dm/SiNRGMbhuT8b8WrE1nuwsvQS7KxtV5BVIYog/oWABK1nz+abZMbJJruSImzm43nhaU4mkO7HmVTFzMzM0k3gzczMEk7gzczMEm4p8O+TjzK6fywXV7flx88RALClotXR7Gj3n1sI/NPruNzcPZTn8Wd5m9RTvwCArVU3zY52R8P76wIf9Y8HhB0AhqZuGt6/yXeBjyv+7Oa+6osAwDaLhkfL23WBj/f4bu8AMFR10/J2XeDjz/rVXwAAhiBa3k7gASAJgQeAhAQeABISeABISOABICGBB4CEBB4AEhJ4AEhI4AEgIYEHgIQEHgASEngASEjgASAhgQeAhAQeABISeABISOABICGBB4CENhf4s8NSVVVj5/ilO7883uvO98++nl99/lKOdmdnVXVYTufPvk3Oy/782Wr3pFx+d77mbwGAodtQ4HuhbczjfH1SdvrnbYT/ct4PcGjjfHrQe3aqjfPq8zV/CwAkIPAtgQcgkQ0Ffqr3Wrz/+vsr2nvl6Pq7894r+oUA96J9cD4/+8f5mr8FAIZuc4EHAP4bgQeAhAQeABISeABISOABICGBB4CEBB4AEhJ4AEhI4AEgIYEHgIQEHgASEngASEjgASAhgQeAhFYG/uLqdvphvfQwADAEddPydl3gR/eP5Xn8ueILAMC2i4ZHy9t1gX+ffJSbu4fpQ27xADAsddPwaHm7LvCxp9dx88DsJi/0ALDd6qbZ0e5oeH8LgY9F/eOKH+/x4896AGA7Rauj2f2be7ulwJuZmdnwJ/BmZmbpVspv/VdqkM1i62sAAAAASUVORK5CYII=" InformativeScreenshot="8823bbb3605c46b8aace37d56cf85e0a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - Connected Office: Device Management' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="332, 542, 83, 30" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFcAAAAiCAYAAAAqJ0UeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUOSURBVGhD7ZixSyNNGMa/f8VCyFVrlS5iEywU4QwpPPhgwxURiwSLxYMPFE4SSLBIYRFYSBHYIhA4wsIhwhEC4qVQLE4CHxI4onCQwEEEYYvAc+/Mzmx2N/Hwzmw3Dywys5PZmd/MPO87/gOlyKTgRigFN0IpuBFKwY1QCm6EUnAjlIIboRTcCKXgRigFN0IpuK/WDQrLb7BUuhHlqYJwr8pYYg39j5ZAyqih/d0RjZSC+kO4u7UuLi/o+dKEWTSQijPQGyhcKcCz+kO4hStRlnqiDtapg7SFgahSknotXNKgodM7A2djUaEktAC4w2aW3mXRGoqKcQ+tUg6biRX+m6X4BnZPuxhOxHupYRemoSPJreUNYokd5O178ZLJwZ1dxu5WAjHWz3Icyb0qrtkijs+Rp7rNet9tKjWhCWnUdv8cgbWedPlEA+0nI1yaBt6tx91xsv51A+bXkWggNULjPb0nSM7/TRym3fZ+FuOejcLeBjTRT8qwaJzuN18B9xGtHHWwVsUtL7sDiW3RIG3Xn1uVHQ4nWaHB8TaknwSHIGh6FS3m4RcdNEpZxKmN1G11g4LmNg6sjuvzdg35dA6NH+yt+O77JuSacvWqWOUTPEbbHwZ4/TY8tmRnJ1u0+NR/3rS9OFLQGbgVZJr+RRZwcwYOchZuQyfUITZJ+qaml9H4IueiQ1vf4PV/BdcZ9tEqbhO4FeQ/P4raEc4IRnCXOmh/YBMu41LUDz+x3a6j8eCWPXm/o8mzHVjsirIQey/74CcmaEe31SRi+wZ2aUz+sd7Vt30bwMF1KUlgs7Pf5+9oUZdzaP0UVRJuoE7IoZOyRpsp28QgMGcan224J+6lcGcetrMCR3m+pHW4u47GdHHMFyXTeO6396inqf91WpDnvPy7hRSN4bAjt2gf9bes3OcwVqs9Ue/CWT0VZaeDQ/qdVw7rRxMZep/5JO1BwP2XAIoaT18ZlyROv4myX8KKXgzXS8XYc9XHOLRaXJNH3F1QqlYpI69vY9PzzClcTO5x9h/b9cxrsyg0bzAIZXPOtxrecT9mHkb5dF+eDikXZkwOvm9hU9gB36lvLdyxeu7Pvp0s4E0XJSw3EMU8ixJww6eI5G6akAV5WkBAC+jBxi4DwoLYUQUnlutnZxWWUfjgCjkPXdSPyGuZBdApOAnny7RQt3aFvNYNIlrODhw/ZgPyuPOJykDGPVZ8j+8uH4C/hTsHkgt3andBLRjudYmCxBp97ElUCLnp2ixcT5RhmGwCWhnXcwdKEzk/5sEq0/RFcy9QuQCm3t/DKXkhK/MFOOpMg+kLbcEfR56DO/5s0Lx8gdIv8Z0FwR2hlaXOwt40oePL/DNgC+KvTzP5criN8LCpl5JE6pUxKZMIBRy+0MUaTLKOKSgmB5cfWaZA43kuoGk0jnBAmwNJLsQqWUb4HNzVdjizhe3cgcU6XEGq2ESbpzcWDrYo3dkP7lx2nOJZmbrQY1e5v8a8HUbQ4pT3yjSJ0ps69+idmV3CIbJJhNIyp3NMpyg5tQe/5M1ybioWvs7/Bi5bjArLLijV3KuJtNKGuU+xplTGwSLh8sT8NOddDLS0gfrNIwbhbKFnUbCTSTe1W9dxaN34UrgR2v6LiJbAJl0g5v2TiEOkNgG7YBIXjZlcWOrpHm0aq/8b8/8R9Tu4TOKyIy4j/DJkskvTSz1XaaFScCOUghuhFNwIpeBGKAU3Qim4EUrBjUzAL+UzOs2zGNKrAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Log in'" sap:VirtualizedContainerService.HintSize="337.6,167.2" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0f718dcd-7cbe-4b14-a342-ac860f45c7f1" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://connectedoffice-devicemanagement.azurewebsites.net/Identity/Account/Login" DesignTimeRectangle="332, 709, 87, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Log in' check:innerText='Log in' /&gt;" Guid="1049fea0-c079-4e28-8274-4d14725f9877" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFsAAAA0CAYAAADllEQWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANZSURBVHhe7ZzNahNRFMd9DLE+gg/gG4gv0F0WgiuF4qI7NzKuCm5cFKRbMRQJCV00CBIlpWgJ0qLTQhlqIBbbSUMYhvQjH5S/58xHOpPc1jQfN0l7DvwWuffM3JnfXM69CUzuQEJbiGyNIbI1Rpfs9Pc/ePz6C+4/TePuk5RwTdgb+2OPnRGT/Wr5Jx68yOLes8+YmcsTa8K1yXv+2CP7jEZbNj8JThDJwyLv+YzO8LZsnvr+jFYdKPQD+2SvYbRlc62RWT1s8p7XMNqyubirDxAGgb2GIbJHjMjWiMjWiMjWiMjWiMjWiMjWiMjWiMjWiMjWiMjWyO2TbezDbNJNulUYqv4RMjrZaQcuncu1iur+cbF4CEtk33xEtkZEtkYmQvajVBmm00L93B8f5+dwnRoyHwuK/E28LNRwdBrkUrh2BQurvY5XxDofax9G2qiOB8fytVjH4YVQW7WKhTfR4/tn7LITGyeo86DNBsydMjKFMrLWCVzvfltYX4kKL8CwWtyBultDjnIzhSpMTm76ggaSXeFxW7CC68gd+GOhUsZs7Bz9MV7ZvDNgR8cODKOjb+li1zAftgXnrJOoRDR3bhtJe3DZ3Q93G9kqtzeQex+29c9YZc9unXnjmXlVuVgLZjEJSEU/041/6M6dWRm8jPAMfhjLXcNzs0Ed/BDi7f0wVtm+vDNkF9X9M1RiOKxv/uekTR/qLt525jE9lq3/1ex4LhFew0ZHex9Mn+xTKjmdeYzIvvrmeysjF/UyecDZlzycT6630IpsVT+zWEaJB+xxgZz94T8cPmesthq7wUJ2y2XX7aq3jYrzF0YwO6/c+jVPkFyKnpdEHXMyiak4yPK5thxYJM+1z6SMqINW9/RFbmK1EvsiAdrrHpXoi0pMdICxh0ypEezDKZq8L95H4lbXbN2EW7/dPXX/BHBjZM/v8H6YFtuv6v5J4GbIDhfTZg3vOhfaCWLKZB/CPG3AKgWLI5H7TQujV79bNKt/KY6ZHKZMdhGZA1oceRaHwb8Q2g6SqU1F/mQxZbKnG5GtEZGtEZGtEZGtEZGtEaVseTVvFFzyap68dDp8Ln3pVF6nHjZXvE7NIX8UMAx6+KOAMPhJ8NTnWsPFXbge7I39RWd0GF2yJUYVwD/KcYRpU7T9JwAAAABJRU5ErkJggg==" InformativeScreenshot="983f02fdadb8033febb8ed87ecb84e60.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - Connected Office: Device Management' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="c0147f3144e02c7536d9e94c5a75ad76.jpg" Selector="&lt;html app='chrome.exe' title='Log in - Connected Office: Device Management' /&gt;" Url="https://connectedoffice-devicemanagement.azurewebsites.net/Identity/Account/Login" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="c0147f3144e02c7536d9e94c5a75ad76.jpg" Selector="&lt;html app='chrome.exe' title='Log in - Connected Office: Device Management' /&gt;" Url="https://connectedoffice-devicemanagement.azurewebsites.net/Identity/Account/Login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
